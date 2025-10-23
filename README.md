@@ -31,8 +31,8 @@ _基于 `Kotlin` 和` Jetpack Compose` 的**中小型**项目脚手架_
 
 ## 分支说明
 
-* [master](https://gitee.com/huyu-git/LiteAppScallold) 主干分支，后续会陆续新增一些能够提高新项目开发效率的插件或组件。
-* [lite](https://gitee.com/huyu-git/LiteAppScallold/tree/lite/) 最简版本
+* `master` 主干分支，后续会陆续新增一些能够提高新项目开发效率的插件或组件。
+* `lite` 最简版本
 
 
 
