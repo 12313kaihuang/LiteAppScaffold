@@ -50,6 +50,10 @@ gradlePlugin {
             id = "${prefix}.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
+        register("androidLibraryRoom") {
+            id = "${prefix}.library.room"
+            implementationClass = "AndroidLibraryRoomConventionPlugin"
+        }
     }
 
 }
