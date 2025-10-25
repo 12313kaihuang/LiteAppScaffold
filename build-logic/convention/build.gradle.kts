@@ -55,9 +55,13 @@ gradlePlugin {
             implementationClass = "AndroidLibraryRoomConventionPlugin"
         }
         // 模块通用插件
-        register("commonLibraryKotlinSerilization") {
-            id = "${prefix}.library.kotlinSerilization"
+        register("commonLibraryKotlinSerialization") {
+            id = "${prefix}.library.kotlinSerialization"
             implementationClass = "CommonLibrarySerializationConventionPlugin"
+        }
+        register("commonLibraryRetrofit") {
+            id = "${prefix}.library.retrofit"
+            implementationClass = "CommonLibraryRetrofitConventionPlugin"
         }
     }
 
