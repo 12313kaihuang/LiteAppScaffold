@@ -26,4 +26,5 @@ android {
 
 dependencies {
     implementation(projects.feature)
+    implementation(libs.systemUIController)
 }
