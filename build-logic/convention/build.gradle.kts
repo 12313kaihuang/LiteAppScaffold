@@ -54,6 +54,11 @@ gradlePlugin {
             id = "${prefix}.library.room"
             implementationClass = "AndroidLibraryRoomConventionPlugin"
         }
+        // 模块通用插件
+        register("commonLibraryKotlinSerilization") {
+            id = "${prefix}.library.kotlinSerilization"
+            implementationClass = "CommonLibrarySerializationConventionPlugin"
+        }
     }
 
 }

@@ -3,7 +3,9 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 
 /**
- * core模块插件
+ * Android Library插件
+ *
+ * 引入Room相关依赖
  *
  * huyu create
  * 2025/10/22 9:19
